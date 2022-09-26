@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>counter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="design">
+      
+      
+      <button onclick="decreament()" id="b2" type="button">-</button>
+      <div id="style"><p  id="counter" >0</p></div> 
+      <button onclick="increament()" id="b1" type="button">+</button>
+    </div>
+  </body>
+  <script>
+    function increament() {
+        var count=document.getElementById("counter").innerText;
+          count=parseInt(count)+1;
+        console.log(count);
+       document.getElementById("counter").innerHTML=count;
+
+    }
+    function decreament() {
+       
+       var count=document.getElementById("counter").innerText;
+       if (count<=0){
+        alert("value cannot be negative");
+       }
+       else {
+        count=parseInt(count)-1;
+       console.log(count);
+       document.getElementById("counter").innerHTML=count;
+
+       }
+        
+     }
+
+  </script>
+</html>
