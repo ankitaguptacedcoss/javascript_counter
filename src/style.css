@@ -7,28 +7,39 @@
     width:60px;
     height:50px;
     margin-left: 1px;
-    background-color: rgba(128, 128, 128, 0.199);
-    border-top-right-radius: 5px solid rgba(128, 128, 128, 0.199);
-    border-bottom-left-radius: 5px solid rgba(128, 128, 128, 0.199);
+    background-color: rgba(128, 128, 128, 0.151);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+    border-top:2px solid rgba(128, 128, 128, 0.199);
+    border-bottom:2px solid rgba(128, 128, 128, 0.199);
+    border-right:0.5px solid rgba(128, 128, 128, 0.199);
+    border-left:0.5px solid rgba(128, 128, 128, 0.199);
 }
 #b2{
     
     width:60px;
     height:50px;
     margin-right: 1px;
-    background-color: rgba(128, 128, 128, 0.199);
-    border-top-left-radius: 5px solid rgba(128, 128, 128, 0.199);
-    border-bottom-left-radius: 5px solid rgba(128, 128, 128, 0.199) ;
+    background-color: rgba(128, 128, 128, 0.151);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top:2px solid rgba(128, 128, 128, 0.199);
+    border-bottom:2px solid rgba(128, 128, 128, 0.199);
+    border-right:0.5px solid rgba(128, 128, 128, 0.199);
+    border-left:0.5px solid rgba(128, 128, 128, 0.199);
 
 }
+
 #style{
     border-top:2px solid rgba(128, 128, 128, 0.199);
     border-bottom:2px solid rgba(128, 128, 128, 0.199);
     border-right:0.5px solid rgba(128, 128, 128, 0.199);
     border-left:0.5px solid rgba(128, 128, 128, 0.199);
-   
-
+    margin-left:-1px;
+    margin-right:-1px;
+    
     width:50px;
-    height:47px;
+    height:46px;
     text-align: center;
 }
